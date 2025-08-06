@@ -1,6 +1,5 @@
-```
-Roses are red,
-Violets are blue,
-Code is my life,
-And so is this too.
+```python
+with open("poem.txt", "a") as f:
+    f.write("Roses are red,\nViolets are blue,\nSugar is sweet,\nAnd so are you.\n")
+
 ```
